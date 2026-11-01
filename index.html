@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student portal for accessing courses, student information, and academic resources.">
+    <meta name="author" content="Godswill Akaba">
+    <title>HTU Student Portal | Login Page</title>
+
+    <meta property="og:title" content="HTU Student Portal | Login Page">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="A student portal for accessing courses, student information, and academic resources.">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/small_screen.css">
+    <link rel="stylesheet" href="styles/large_screen.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script type="module" src="script/login.js"></script>
+    <script src="script/navigation.js" defer></script>
+</head>
+
+<body class="bdy">
+    <div class="login-container">
+        <div class="welcome">
+            <h1>Hello, Welcome!</h1>
+            <p>Log in to access your portal!</p>
+            <div class="school-bagde">HTU</div>
+        </div>
+
+        <form id="loginForm">
+            <h2>Log In</h2>
+                <div class="form">
+                    <input type="text" 
+                    id="studentName"
+                    placeholder="Student Full Name" 
+                    required>
+                </div>
+                <div class="form" >
+                    <input type="text"
+                    id="studentId"
+                    placeholder="Student ID" 
+                    required>
+                    <!--a href="dashboard.html" class="btn">Log In</a-->
+                    <button type="submit" class="btn">Log In</button>
+                </div> 
+                <p id="logInMessage"></p>   
+        </form>
+
+    </div>
+   
+</body>
+</html>

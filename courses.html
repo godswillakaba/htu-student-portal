@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student portal for accessing courses, student information, and academic resources.">
+    <meta name="author" content="Godswill Akaba">
+    <title>HTU Student Portal | My Courses</title>
+
+    <meta property="og:title" content="HTU Student Portal | My Courses Page">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="A student portal for accessing courses, student information, and academic resources.">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/small_screen.css">
+    <link rel="stylesheet" href="styles/large_screen.css">
+
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script type="module" src="script/main.js"></script>
+    <script src="script/navigation.js" defer></script>
+</head>
+
+<body>
+
+    <main>
+        <button class="nav-button" id="sidebarToggle" aria-label="Open navigation menu" aria-expanded="false">
+            <i class="bx bx-menu"></i>
+        </button>
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>HTU Portal</h2>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="bx bx-dashboard-alt"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="register.html">
+                            <i class="bx bx-form"></i>
+                            <span>Register</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="courses.html" class="active">
+                            <i class="bx bx-book-open"></i>
+                            <span>My Courses</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="bx bx-calendar-alt"></i>
+                            <span>Timetable</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <!-- <a href="dashboard.html">
+                            <i class="bx bx-user-circle"></i>
+                            <span>Profile</span>
+                        </a> -->
+                        <a href="#announcement">
+                            <i class="bx bx-megaphone-alt"></i>
+                            <span>Announcement</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="bx bx-article"></i>
+                            <span>Assignment</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="bx bx-wallet"></i>
+                            <span>Finance</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="bx bx-arrow-out-left-square-half"></i>
+                            <span>Log Out</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="student-bar">
+            <div class="student-info">
+                <h1>Welcome Back, <span class="firstName"></span>!</h1>
+                <div class="student-details">
+                    <p class="programme"></p>
+                    <p class="studentId"></p>
+                    <p class="level"></p>
+                    <p id="semester"></p>
+                    <a class="register" href="register.html">Register Courses</a>
+                </div>
+            </div>
+        </section>
+
+        <div id="courses-table"></div>
+
+        <!-- <table class="courses-table">
+                <tbody id="course-table-body"></tbody>
+        </table> -->
+
+        <!-- <div class="dashboard-layout">
+            <section class="student-profile">
+                <div class="student-photo">
+                    <img id="studentPhoto" alt="student photo">
+                    <p><span class="firstName"></span> <span id="middleName"></span> <span id="lastName"></span></p>
+                    <p class="programme"></p>
+                    <p class="studentId"></p>
+                    <p class="level"></p>
+                    <p id="department"></p>
+                </div>
+            
+                <hr class="line">
+    
+                <div class="student-details-card">
+                    <p id="email"></p>
+                    <p id="phone"></p>
+                    <p id="gender"></p>
+                    <p id="dob"></p>
+                    <p id="dateOfAdmission"></p>
+                    <p id="address"></p>
+                </div>
+            </section>
+
+        </div> -->
+
+
+
+
+
+    </main>
+    <footer></footer>   
+</body>
+</html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A student portal for accessing courses, student information, and academic resources.">
+    <meta name="author" content="Godswill Akaba">
+    <title>HTU Student Portal | Dashboard</title>
+
+    <meta property="og:title" content="HTU Student Portal | Dashboard Page">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="A student portal for accessing courses, student information, and academic resources.">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/small_screen.css">
+    <link rel="stylesheet" href="styles/large_screen.css">
+
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <script type="module" src="script/main.js"></script>
+    <script src="script/navigation.js" defer></script>
+</head>
+<body>
+    
+    <main>
+        
+        <button class="nav-button" id="sidebarToggle" aria-label="Open navigation menu" aria-expanded="false">
+            <i class="bx bx-menu"></i>
+        </button>
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>HTU Portal</h2>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <a href="dashboard.html" class="active">
+                            <i class="bx bx-dashboard-alt"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="register.html">
+                            <i class="bx bx-form"></i>
+                            <span>Register</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="courses.html">
+                            <i class="bx bx-book-open"></i>
+                            <span>My Courses</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="result.html">
+                            <i class="bx bx-report"></i>
+                            <span>Results</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#todaysClass">
+                            <i class="bx bx-calendar-alt"></i>
+                            <span>Timetable</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#announcement">
+                            <i class="bx bx-megaphone-alt"></i>
+                            <span>Announcement</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#assignment">
+                            <i class="bx bx-article"></i>
+                            <span>Assignment</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#finance">
+                            <i class="bx bx-wallet"></i>
+                            <span>Finance</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="dashboard.html">
+                            <i class="bx bx-arrow-out-left-square-half"></i>
+                            <span>Log Out</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="student-bar">
+            <div class="student-info">
+                <h1>Welcome Back, <span class="firstName"></span>!</h1>
+                <div class="student-details">
+                    <p class="programme"></p>
+                    <p class="studentId"></p>
+                    <p class="level"></p>
+                    <p id="semester"></p>
+                    <a class="register" href="register.html">Register Courses</a>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="dashboard-layout">
+            <section class="student-profile">
+                <div class="student-photo">
+                    <img id="studentPhoto" alt="student photo">
+                    <p><span class="firstName"></span> <span id="middleName"></span> <span id="lastName"></span></p>
+                    <p class="programme"></p>
+                    <p class="studentId"></p>
+                    <p class="level"></p>
+                    <p id="department"></p>
+                </div>
+            
+                <hr class="line">
+    
+                <div class="student-details-card">
+                    <p id="email"></p>
+                    <p id="phone"></p>
+                    <p id="gender"></p>
+                    <p id="dob"></p>
+                    <p id="dateOfAdmission"></p>
+                    <p id="address"></p>
+                </div>
+            </section>
+
+            <section class="dashboard-cards">
+
+                <article class="dashboard-card" id="finance">
+                    <h2>Finance</h2>
+
+                    <div class="card-info">
+                        <p class="fee-balance">
+                            <span>Total Fees</span>
+                            <span id="totalFees">GHS 0.00</span>
+                        </p>
+
+                        <p class="amount-paid">
+                            <span>Paid</span>
+                            <span id="amountPaid">GHS 0.00</span>
+                        </p>
+
+                        <p class="fee-balance">
+                            <span>Balance</span>
+                            <span id="feeBalance">GHS 0.00</span>
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="dashboard-card">
+                    <h2>Courses</h2>
+                    <div class="card-info">
+                        <p>8 Courses Available</p>
+                        <a href="courses.html">View Courses →</a>
+                    </div>
+                </article>
+
+                <!-- <article class="dashboard-card">
+                    <h2>Current GPA</h2>
+                    <div class="gpa-info">
+                        <strong>N/A</strong>
+                        <p>No results yet</p>
+                    </div>
+                </article> -->
+
+                <article class="dashboard-card" id="todaysClass">
+                    <h2>Today's Classes</h2>
+                    <div class="card-info" id="todaysClasses">
+                        <!-- Today's schedule will be displayed here -->
+                    </div>
+                </article>
+
+                <!-- <article class="dashboard-card">
+                    <h2>Academic Calendar</h2>
+                    <div class="card-info">
+                        <p><span>Next Event</span> Registration Deadline</p>
+                        <p><span>Date</span> 20 October 2026</p>
+                    </div>
+                </article> -->
+
+                <article class="dashboard-card" id="announcement">
+                    <h2>Announcements</h2>
+                    <div class="card-info" id="announcements">
+                        <!-- Announcements will be displayed here -->
+                    </div>
+                </article>
+
+                <article class="dashboard-card" id="assignment">
+                    <h2>Assignments</h2>
+                    <div id="assignments-list"></div>
+                    <dialog id="assignmentModal">
+                        <div class="assignment-modal-content">
+                            <button type="button" id="closeAssignmentModal">&times;</button>
+                            <h2 id="modalAssignmentTitle"></h2>
+                            <p id="modalAssignmentCourse"></p>
+                            <p id="modalAssignmentDescription"></p>
+                            <p id="modalAssignmentDueDate"></p>
+                            <p class="assignmentNote">Complete this assignment and submit it in person to your
+                                lecturer. Only mark it as done when you have completed it
+                                and are ready to submit it.
+                            </p>
+                            <button type="button" id="markAsDone">Mark As Done</button>
+                        </div>
+
+                        <div id="congratulationsMessage" hidden>
+                            <h2>Congratulations!</h2>
+                            <p>You have completed this assignment.</p>
+                        </div>
+                    </dialog>
+
+                </article>
+            </section>
+        </div>
+     
+    </main>
+    
+
+    
+
+</body>
+</html>

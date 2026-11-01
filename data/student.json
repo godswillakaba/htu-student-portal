@@ -1,0 +1,439 @@
+{
+    "students": [
+        {
+            "firstName": "James",
+            "middleName": "Kofi",
+            "lastName": "Akudzo",
+            "gender" : "Male",
+            "studentId": "0314455001",
+            "programme": "BTech Computer Science",
+            "department": "Computer Science",
+            "level": "Level 100",
+            "semester": "First Semester",
+            "academicYear": "2026/2027",
+            "email": "0314455001@htu.edu.gh",
+            "phone": "0240000000",
+            "photo": "images/james-photo.webp",
+            "dob" : "14 Jan, 2004",
+            "address" : "Bronze ST 2321, Kumasi",
+            "dateOfAdmission" : "2025-11-03",
+
+            "fees": {
+                "academicYear": "2026/2027",
+                "totalFees": 4500,
+                "amountPaid": 3000,
+                "paymentStatus": "Partially Paid"
+            }
+        },
+
+        {
+            "firstName": "Michael",
+            "middleName": "Kwame",
+            "lastName": "Mensah",
+            "gender" : "Male",
+            "studentId": "0314455002",
+            "programme": "BTech Computer Science",
+            "department": "Computer Science",
+            "level": "Level 100",
+            "semester": "First Semester",
+            "academicYear": "2026/2027",
+            "email": "0314455002@htu.edu.gh",
+            "phone": "0240000001",
+            "photo": "images/michael-photo.webp",
+            "dob" : "31 Dec, 2001",
+            "address" : "Adjei ST 1121, Kumasi",
+            "dateOfAdmission" : "2025-11-03",
+
+            "fees": {
+                "academicYear": "2026/2027",
+                "totalFees": 4500,
+                "amountPaid": 4500,
+                "paymentStatus": "Fully Paid"
+            }
+        },
+
+        {
+            "firstName": "Sarah",
+            "middleName": "Asantewa",
+            "lastName": "Adjei-Benson",
+            "gender" : "Female",
+            "studentId": "0314455003",
+            "programme": "BTech Computer Science",
+            "department": "Computer Science",
+            "level": "Level 100",
+            "semester": "First Semester",
+            "academicYear": "2026/2027",
+            "email": "0314455003@htu.edu.gh",
+            "phone": "0240000002",
+            "photo": "images/sandra-photo.webp",
+            "dob" : "02 Feb, 2005",
+            "address" : "Bronze ST 2321, Kumasi",
+            "dateOfAdmission" : "2025-11-03",
+
+            "fees": {
+                "academicYear": "2026/2027",
+                "totalFees": 4500,
+                "amountPaid": 1000,
+                "paymentStatus": "Outstanding"
+            }
+        }
+    ],
+
+    "courses": [
+        {
+            "courseCode": "BCSC 101",
+            "courseName": "Introduction to Computer Science",
+            "creditHours": 3,
+            "lecturer": "Dr. Mensah",
+            "description": "This course introduces students to the fundamental concepts of computer science, including computer systems, hardware and software, data representation, computational thinking, algorithms, and the role of computing in solving real-world problems.",
+            "outcomes": [
+                    "1.Explain the fundamental concepts and scope of computer science.",
+                    "2.Identify the major components of computer systems, including hardware and software.",
+                    "3.Describe how computers represent, process, and store data.",
+                    "4.Develop basic problem-solving skills using computational thinking and algorithms.",
+                    "5.Explain the applications of computer science in everyday life and different industries."
+                ],
+            "milestones": [
+                "Milestone 1: Introduction to computer science and computing concepts.",
+                "Milestone 2: Computer hardware, software, and operating systems.",
+                "Milestone 3: Data representation, processing, and storage.",
+                "Milestone 4: Computational thinking, algorithms, and problem-solving.",
+                "Milestone 5: Applications of computer science and course review."
+            ]
+        },
+
+        {
+            "courseCode": "BCSC 102",
+            "courseName": "Database Systems",
+            "creditHours": 3,
+            "lecturer": "Mrs. Owusu",
+            "description": "This course introduces students to database concepts, database management systems, data modelling, entity-relationship diagrams, relational databases, and Structured Query Language (SQL). Students learn how to design, create, query, and manage databases.",
+            "outcomes": [
+                "1. Explain fundamental database concepts and the purpose of database management systems.",
+                "2. Identify entities, attributes, relationships, and keys in a database.",
+                "3. Construct entity-relationship diagrams for simple real-world systems.",
+                "4. Design relational database tables using appropriate keys and relationships.",
+                "5. Write basic SQL statements to create, retrieve, insert, update, and delete data.",
+                "6. Explain the importance of data integrity, security, and database normalization."
+            ],
+            "milestones": [
+                "Milestone 1: Introduction to databases and database management systems.",
+                "Milestone 2: Data modelling and entity-relationship diagrams.",
+                "Milestone 3: Relational database concepts, tables, and keys.",
+                "Milestone 4: SQL queries and data manipulation.",
+                "Milestone 5: Database design, normalization, integrity, and security."
+            ]
+        },
+
+        {
+            "courseCode": "BCSC 103",
+            "courseName": "Web Development",
+            "creditHours": 3,
+            "lecturer": "Mr. Asare",
+            "description": "This course introduces students to the fundamentals of web development, including website structure, styling, interactivity, responsive design, and web publishing. Students learn how HTML, CSS, and JavaScript work together to create functional and user-friendly websites.",
+            "outcomes": [
+                "1. Explain the basic concepts and technologies used in web development.",
+                "2. Create web page structures using HTML.",
+                "3. Style web pages using CSS, including layouts and responsive design.",
+                "4. Add interactivity to web pages using JavaScript.",
+                "5. Apply web accessibility and usability principles when designing websites.",
+                "6. Test and publish a basic website using appropriate web development tools."
+                    
+                ],
+            "milestones": [
+                "Milestone 1: Introduction to the web and web development tools.",
+                "Milestone 2: HTML structure, elements, links, images, and forms.",
+                "Milestone 3: CSS styling, layouts, and responsive design.",
+                "Milestone 4: JavaScript fundamentals and DOM manipulation.",
+                "Milestone 5: Website development, testing, and publishing."
+            ]
+        },
+
+        {
+            "courseCode": "BCSC 104",
+            "courseName": "Programming Fundamentals",
+            "creditHours": 3,
+            "lecturer": "Dr. Boateng",
+            "description": "This course introduces students to the fundamental principles of computer programming. Students learn how to design algorithms, write and execute programs, use variables and data types, apply control structures, create functions, and solve problems through systematic programming techniques.",
+            "outcomes": [
+                "1. Explain fundamental programming concepts and problem-solving techniques.",
+                "2. Develop algorithms and represent them using pseudocode or flowcharts.",
+                "3. Use variables, constants, data types, operators, and expressions in programs.",
+                "4. Apply selection and repetition structures to control program execution.",
+                "5. Write and use functions to organize programs into reusable components.",
+                "6. Test, debug, and correct errors in simple programs.",
+                "7. Develop basic programs to solve practical problems."
+            ],
+
+            "milestones": [
+                "Milestone 1: Introduction to programming and algorithms.",
+                "Milestone 2: Variables, data types, operators, and expressions.",
+                "Milestone 3: Selection and repetition control structures.",
+                "Milestone 4: Functions, parameters, and modular programming.",
+                "Milestone 5: Testing, debugging, and practical programming exercises."
+            ]
+        },
+
+
+        {
+            "courseCode": "MATH 101",
+            "courseName": "Introduction to Mathematics",
+            "creditHours": 3,
+            "lecturer": "Mr. Addo",
+            "description": "This course introduces students to essential mathematical concepts used in computing and other technical disciplines. Topics may include algebra, equations, functions, sets, logic, number systems, and mathematical problem-solving.",
+            "outcomes": [
+                "1. Apply basic algebraic rules to simplify mathematical expressions and solve equations.",
+                "2. Explain the concepts of sets, relations, and functions.",
+                "3. Use mathematical logic and reasoning to solve problems.",
+                "4. Perform calculations involving different number systems where applicable.",
+                "5. Apply mathematical techniques to solve problems in computing and technical fields.",
+                "6. Interpret mathematical expressions, graphs, and relationships."
+            ],
+
+            "milestones": [
+                "Milestone 1: Fundamental mathematical concepts and algebra.",
+                "Milestone 2: Equations, inequalities, and mathematical expressions.",
+                "Milestone 3: Sets, relations, and functions.",
+                "Milestone 4: Logic, reasoning, and problem-solving.",
+                "Milestone 5: Applications of mathematics in computing."
+            ]
+        },
+
+        {
+            "courseCode": "STAT 101",
+            "courseName": "Introduction to Statistics",
+            "creditHours": 3,
+            "lecturer": "Mrs. Asante",
+            "description": "This course introduces students to the fundamental principles of statistics and their application in data analysis and decision-making. Students learn how to collect, organize, summarize, present, and interpret data using descriptive statistics, basic probability, and introductory statistical methods.",
+            "outcomes": [
+                "1. Explain basic statistical concepts and terminology.",
+                "2. Collect, organize, and present data using tables, charts, and graphs.",
+                "3. Calculate and interpret measures of central tendency, including mean, median, and mode.",
+                "4. Calculate and interpret measures of dispersion, including range, variance, and standard deviation.",
+                "5. Explain basic probability concepts and their applications.",
+                "6. Interpret statistical information to support evidence-based decisions.",
+                "7. Use appropriate statistical methods to analyze simple datasets."
+            ],
+            "milestones": [
+                "Milestone 1: Introduction to statistics and data types.",
+                "Milestone 2: Data collection, organization, tables, and graphs.",
+                "Milestone 3: Measures of central tendency.",
+                "Milestone 4: Measures of dispersion and variability.",
+                "Milestone 5: Basic probability and statistical interpretation."
+            ]
+        },
+
+        {
+            "courseCode": "COMM 101",
+            "courseName": "Communication Skills",
+            "creditHours": 2,
+            "lecturer": "Mrs. Arthur",
+            "description": "his course develops students' oral, written, interpersonal, and academic communication skills. It focuses on effective listening, speaking, reading, writing, presentation techniques, and professional communication in academic and workplace settings.",
+            "outcomes": [
+                "1. Explain the principles and importance of effective communication.",
+                "2. Demonstrate active listening and appropriate verbal communication skills.",
+                "3. Write clear, coherent, and grammatically correct paragraphs and documents.",
+                "4. Apply reading and comprehension strategies to understand different texts.",
+                "5. Deliver organized oral presentations to an audience.",
+                "6. Use appropriate communication skills in academic, interpersonal, and professional settings.",
+                "7. Identify common communication barriers and suggest ways to overcome them."
+            ],
+            "milestones": [
+                "Milestone 1: Fundamentals and principles of communication.",
+                "Milestone 2: Listening, speaking, and interpersonal communication.",
+                "Milestone 3: Grammar, sentence construction, and paragraph writing.",
+                "Milestone 4: Reading comprehension and academic writing.",
+                "Milestone 5: Oral presentations and professional communication."
+            ]
+        },
+        {
+            "courseCode": "UGRC 101",
+            "courseName": "Academic Writing",
+            "creditHours": 2,
+            "lecturer": "Mr. Ofori",
+            "description": "This course develops students' oral, written, interpersonal, and academic communication skills. It focuses on effective listening, speaking, reading, writing, presentation techniques, and professional communication in academic and workplace settings.",
+            "outcomes": [
+                "1. Explain the principles and importance of effective communication.",
+                "2. Demonstrate active listening and appropriate verbal communication skills.",
+                "3. Write clear, coherent, and grammatically correct paragraphs and documents.",
+                "3. Apply reading and comprehension strategies to understand different texts.",
+                "4. Deliver organized oral presentations to an audience.",
+                "5. Use appropriate communication skills in academic, interpersonal, and professional settings.",
+                "6. Identify common communication barriers and suggest ways to overcome them."
+            ],
+            "milestones": [
+                "Milestone 1: Fundamentals and principles of communication.",
+                "Milestone 2: Listening, speaking, and interpersonal communication.",
+                "Milestone 3: Grammar, sentence construction, and paragraph writing.",
+                "Milestone 4: Reading comprehension and academic writing.",
+                "Milestone 5: Oral presentations and professional communication."
+            ]
+        }
+    ],
+
+    "schedule": [
+        {
+            "courseCode": "BCSC 101",
+            "day": "Monday",
+            "startTime": "08:00",
+            "endTime": "10:00",
+            "location": "ICT Block 1"
+        },
+        {
+            "courseCode": "BCSC 102",
+            "day": "Monday",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "location": "Computer Lab 2"
+        },
+        {
+            "courseCode": "BCSC 103",
+            "day": "Tuesday",
+            "startTime": "08:00",
+            "endTime": "10:00",
+            "location": "ICT Block 2"
+        },
+        {
+            "courseCode": "BCSC 104",
+            "day": "Tuesday",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "location": "Computer Lab 1"
+        },
+        {
+            "courseCode": "MATH 101",
+            "day": "Wednesday",
+            "startTime": "08:00",
+            "endTime": "10:00",
+            "location": "Lecture Hall 3"
+        },
+        {
+            "courseCode": "STAT 101",
+            "day": "Wednesday",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "location": "Lecture Hall 2"
+        },
+        {
+            "courseCode": "COMM 101",
+            "day": "Thursday",
+            "startTime": "08:00",
+            "endTime": "10:00",
+            "location": "Lecture Hall 1"
+        },
+        {
+            "courseCode": "UGRC 101",
+            "day": "Friday",
+            "startTime": "10:00",
+            "endTime": "12:00",
+            "location": "Lecture Hall 4"
+        }
+    ],
+
+    "assignments": [
+        {
+            "assignmentId": "A001",
+            "title": "SQL Select Practice",
+            "courseCode": "BCSC 102",
+            "description": "Write SQL queries to retrieve information from a database.",
+            "instructions": "Using the database provided by your lecturer, write SQL queries to retrieve information from the database. \n1. Display all records from the Student table. \n2. Display only the first name and last name of all students. \n3. Retrieve students whose level is 100. \n4. Display all records from the Course table. \n5. Retrieve courses with more than 2 credit hours. Write and execute each query in MySQL Workbench. \nSave your SQL queries in a file and submit your completed work in person to your lecturer.",
+            "dueDate": "2026-10-10",
+            "status": "Pending",
+            "score": null
+        },
+        {
+            "assignmentId": "A002",
+            "title": "Personal Web Page",
+            "courseCode": "BCSC 103",
+            "description": "Create a responsive webpage using HTML and CSS.",
+            "instructions": "Create a responsive webpage using HTML and CSS. \n1. Create a basic HTML page with a header, navigation menu, main content section, and footer. \n2. Use CSS to style the webpage with appropriate colours, fonts, spacing, and layout. \n3. Make the webpage responsive so that it displays correctly on both mobile phones and desktop computers. \n4. Use media queries to adjust the layout for different screen sizes. \n5. Ensure that all text and elements are clearly visible and properly arranged. \nTest your webpage in a browser at different screen sizes. \nSave your work in HTML and CSS files and submit the files to your lecturer.",
+            "dueDate": "2026-10-12",
+            "status": "Submitted",
+            "score": null
+        },
+        {
+            "assignmentId": "A003",
+            "title": "Programming Exercise",
+            "courseCode": "BCSC 104",
+            "description": "Write programs demonstrating basic programming concepts.",
+            "instructions": "Write simple programs demonstrating basic programming concepts. \n1. Write a program that displays a welcome message. \n2. Write a program that stores and displays a user's name and age using variables. \n3. Write a program that adds two numbers and displays the result. \n4. Write a program that uses an if-else statement to determine whether a number is positive or negative. \n5. Write a program that uses a loop to display numbers from 1 to 10. Use the programming language taught in class. \nTest each program to ensure it works correctly. \nSave your code in a file and submit it to your lecturer.",
+            "dueDate": "2026-10-15",
+            "status": "Pending",
+            "score": null
+        },
+        {
+            "assignmentId": "A004",
+            "title": "Computer Science Essay",
+            "courseCode": "BCSC 101",
+            "description": "Write an essay explaining the importance of computer science.",
+            "instructions": "Write an essay explaining the importance of Computer Science in today's world. \nYour essay should explain what Computer Science is, discuss at least four ways it contributes to society, and describe how it is used in areas such as education, healthcare, business, and communication. Include examples to support your explanations. \nYour essay should have an introduction, a main body, and a conclusion. \nWrite between 500 and 700 words. Use clear language, check your spelling and grammar, and include references for any sources you use. Save your essay in a document and submit it to your lecturer.",
+            "dueDate": "2026-10-17",
+            "status": "Pending",
+            "score": null
+        },
+        {
+            "assignmentId": "A005",
+            "title": "Algebra Problem Set",
+            "courseCode": "MATH 101",
+            "description": "Solve the assigned algebra and mathematical problems.",
+            "instructions": "Solve the following algebra and mathematics problems. Show all working steps for each question. \n1. Simplify: 3x + 5x - 2x. \n2. Solve for x: 2x + 7 = 19. \n3. Expand and simplify: 3(x + 4) - 2x. \n4. Factorise: x² + 5x + 6. \n5. Solve for y: 4y - 8 = 20. \n6. If a student buys 3 pens at GH₵5 each and 2 notebooks at GH₵12 each, calculate the total cost. \n7. Solve the equation: 5x - 3 = 2x + 12. \n8. Find the value of x² - 3x + 2 when x = 4. \nCheck your answers, write them clearly, and submit your completed solutions through the student portal if online submission is available.",
+            "dueDate": "2026-10-19",
+            "status": "Pending",
+            "score": null
+        },
+        
+        {
+            "assignmentId": "A007",
+            "title": "Communication Presentation",
+            "courseCode": "COMM 101",
+            "description": "Prepare a short presentation on effective communication.",
+            "instructions": "Prepare a short presentation on effective communication. Your presentation should contain 5 to 7 slides and cover the following: \n1. Define effective communication. \n2. Explain four important communication skills, including active listening, clear speaking, body language, and giving feedback. \n3. Describe three barriers to effective communication. \n4. Explain three ways to improve communication in school and the workplace. \n5. Provide one practical example of effective communication in everyday life. End with a brief conclusion summarising your main points. Use simple language, clear headings, and relevant images or illustrations. \nAvoid putting too much text on each slide. You may use Microsoft PowerPoint or Google Slides. Save your presentation as a PPTX or PDF file and submit the completed work through the student portal.",
+            "dueDate": "2026-10-23",
+            "status": "Pendind",
+            "score": null
+        }
+    ],
+
+    "announcements": [
+        {
+            "announcementId": "ANN001",
+            "title": "Course Registration",
+            "message": "Course registration for the first semester is now open.",
+            "date": "2026-10-06",
+            "type": "Academic",
+            "important": true
+        },
+        {
+            "announcementId": "ANN002",
+            "title": "Student Orientation",
+            "message": "New students are invited to attend the orientation programme.",
+            "date": "2026-10-08",
+            "type": "Event",
+            "important": false
+        },
+        {      
+            "announcementId": "ANN003",
+            "title": "Library Orientation",
+            "message": "Students can attend the library orientation to learn about available resources.",
+            "date": "2026-10-12",
+            "type": "General",
+            "important": false
+        },
+        {
+            "announcementId": "ANN004",
+            "title": "Department Meeting",
+            "message": "All Computer Science students are encouraged to attend the department meeting.",
+            "date": "2026-10-15",
+            "type": "Department",
+            "important": true
+        },
+        {
+            "announcementId": "ANN005",
+            "title": "Academic Calendar Update",
+            "message": "Students should check the academic calendar for important semester dates.",
+            "date": "2026-10-18",
+            "type": "Academic",
+            "important": false
+        }
+    ]
+}
