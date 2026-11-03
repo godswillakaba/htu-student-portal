@@ -12,9 +12,7 @@ export async function loadAssignments() {
     const completedAssignments = JSON.parse(localStorage.getItem(storageKey)) || [];
 
     //this finds the next assignment the student should work on
-    //const nextAssignment = assignments.find((assignment) => {
-    //    return !completedAssignments.includes(assignment.assignmentId);
-    //});
+    
     const lastCompleted = completedAssignments.at(-1);
     let nextAssignment;
     if (!lastCompleted) {
@@ -37,10 +35,7 @@ export async function loadAssignments() {
     // this displays a message when a students sumbits all assignments and have no pending assignments
     const assignmentLists = document.querySelector("#assignments-list");
     
-    //if (!nextAssignment) {
-    //    assignmentLists.innerHTML = "<p>Congratulations! You have completed all your assignments.</p>";
-    // return;
-    //};
+    
     if (!assignmentLists) return;
 
     if (!nextAssignment) {
@@ -65,19 +60,6 @@ export async function loadAssignments() {
     assignmentLists.innerHTML = `<p>Congratulations! You have completed all your assignments.</p>`;
         return;
     }
-
-    //const assignmentLists = document.querySelector("#assignments-list");
-
-    //assignments.forEach((assignment) => {
-      //  assignmentLists.innerHTML += `
-        //<div class="assignment-item">
-//        <h3>${assignment.title}</h3>
-  //      <p>${assignment.courseCode}</p>
-    //    <p>${assignment.description}</p>
-      //  <p>${assignment.dueDate}</p>
-        //<p>${assignment.status}</p>
-        //</div>`
-    //});
 
 
     assignmentLists.innerHTML = `
@@ -112,9 +94,6 @@ export async function loadAssignments() {
     });
 
     const markDoneButton = document.querySelector("#markAsDone");
-    //markDoneButton.addEventListener("click", function () {
-    //    alert("Congratulations! You have completed this assignment.");
-    //});
 
     markDoneButton.addEventListener("click", function () {
         completedAssignments.push({

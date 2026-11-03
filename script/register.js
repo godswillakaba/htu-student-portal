@@ -6,14 +6,19 @@ export async function registerCourses() {
 
     //sessionStorage.setItem("loggedInStudentId", student.studentId);
     const studentId = sessionStorage.getItem("loggedInStudentId");
-    console.log("Current student ID:", studentId);
+    //console.log("Current student ID:", studentId);
     const registration = localStorage.getItem(`registration_${studentId}`);
 
     if (registration) {
         const savedRegistration = JSON.parse(registration);
 
         if (savedRegistration.registered) {
-            document.querySelector(".course-table").style.display = "none";
+            //document.querySelector(".course-table").style.display = "none";
+            const courseTable = document.querySelector(".course-table");
+
+            if (courseTable) {
+                courseTable.style.display = "none";
+            }
             // document.querySelector("#registerAllCourses").style.display = "none";
 
             const registerAllCourses = document.querySelector("#registerAllCourses");
@@ -28,11 +33,9 @@ export async function registerCourses() {
                     `Congratulations! You have already registered ${savedRegistration.registeredCourses} courses.`;
             }
 
-return;
+                    //return;
 
-            // document.querySelector("#registrationMessage").textContent =
-            //     `Congratulations! You have already registered ${savedRegistration.registeredCourses} courses.`;
-            // return;
+            
         }
     }
 

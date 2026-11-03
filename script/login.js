@@ -21,9 +21,6 @@ loginForm.addEventListener("submit", async function(event){
         "Invalid Student ID. Please try again.";
     return;
     }
-    //- !student means no matching student was found.
-    //- textContent displays the error message inside your <p id="logInMessage"></p> element.
-    //- return stops the function so the login process doesn't continue with an invalid ID.
 
 
     const fullName =
@@ -43,3 +40,11 @@ loginForm.addEventListener("submit", async function(event){
 
     window.location.href = "dashboard.html";
 });
+
+const logout = document.querySelector("#logout");
+
+if (logout) {
+    logout.addEventListener("click", () => {
+        sessionStorage.removeItem("loggedInStudentId");
+    });
+}

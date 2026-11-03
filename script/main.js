@@ -18,23 +18,6 @@ async function getStudentData() {
     displayTodaysClasses(data.schedule);
     displayAnnouncements(data.announcements);
 
-    
-    
-    // Finance card
-    // const totalFees = Number(student.fees.totalFees);
-
-    // const amountPaid = Number(student.fees.amountPaid);
-    // const balance = totalFees - amountPaid;
-
-    // document.querySelector("#totalFees").textContent =
-    //     `GHS ${totalFees.toFixed(2)}`;
-
-    // document.querySelector("#amountPaid").textContent =
-    //     `GHS ${amountPaid.toFixed(2)}`;
-
-    // document.querySelector("#feeBalance").textContent =
-    //     `GHS ${balance.toFixed(2)}`;
-
 
 
     // Finance Card

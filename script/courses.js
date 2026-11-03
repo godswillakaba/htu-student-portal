@@ -4,8 +4,7 @@ export async function getCourses() {
     const courses = data.courses;
     
 
-    // const courseTableBody = document.querySelector("#course-table-body");
-
+    
     const coursesTable = document.querySelector("#courses-table");
     if (!coursesTable) return;
 
