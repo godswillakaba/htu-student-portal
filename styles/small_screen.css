@@ -510,15 +510,17 @@ h2 {
     width: 95%;
     padding-bottom: 30px;
     margin: 0 auto;
+    overflow-x: auto;
 }
 
 
 .course-table {
-    width: 85%;
+    width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
     /* background-color: #fff; */
     background: red;
+    overflow: hidden;
 }
 
 .course-table thead {
