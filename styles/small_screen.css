@@ -1,6 +1,8 @@
 * { 
     
-    font-family: 'DM Sans', sans-serif;
+    /* font-family: 'DM Sans', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -283,9 +285,10 @@ h2 {
     border-radius: 50%;   
 }
 
-.student-photo p{
+/* .student-photo p{
     text-align: center;
-}
+    font-family: 'DM Sans', sans-serif;
+} */
 
 .line {
     border: none;
@@ -296,8 +299,10 @@ h2 {
 }
 
 .student-photo p {
-    font-size: 18px;
-    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
     color: #333;
 }
 
@@ -308,9 +313,10 @@ h2 {
 }
 
 .student-details-card p{
-    font-size: 18px;
-    font-weight: 400;
-    
+    font-family: 'DM Sans', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
     color: #333;
 }
 
