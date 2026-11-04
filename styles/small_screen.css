@@ -518,8 +518,7 @@ h2 {
     width: 100%;
     border-collapse: collapse;
     margin: 20px auto;
-    /* background-color: #fff; */
-    background: red;
+    background-color: #fff;
     overflow: hidden;
 }
 
