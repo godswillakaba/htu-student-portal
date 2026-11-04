@@ -517,7 +517,8 @@ h2 {
     width: 85%;
     border-collapse: collapse;
     margin: 20px auto;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background: red;
 }
 
 .course-table thead {
